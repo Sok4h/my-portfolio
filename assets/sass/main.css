@@ -20,7 +20,7 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: middle;
 }
 
 article, aside, details, figcaption, figure,
@@ -203,23 +203,18 @@ h6 {
   h1 {
     font-size: 2em;
   }
-
   h2 {
     font-size: 1.25em;
   }
-
   h3 {
     font-size: 1em;
   }
-
   h4 {
     font-size: 0.8em;
   }
-
   h5 {
     font-size: 0.6em;
   }
-
   h6 {
     font-size: 0.6em;
   }
@@ -2025,7 +2020,6 @@ ol li {
 
 ul {
   list-style: disc;
-  margin: 0 0 2em 0;
   padding-left: 1em;
 }
 ul li {
@@ -2065,6 +2059,7 @@ ul.actions {
   list-style: none;
   margin-left: -1em;
   padding-left: 0;
+  align-items: center;
 }
 ul.actions li {
   padding: 0 0 0 1em;
